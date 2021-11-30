@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="shortcut icon" href="https://img.favpng.com/2/0/23/music-festival-icon-band-icon-uTCqT6QM.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- Navbar  -->
+    <div id="header" class="width-full">
+        <div id="nav" class="s-full">
+            <a id="home" href="#">home</a>
+            <a class="toggle-menu" id="toggle-btn" onclick="showToggleNav()"><i class="ti-menu"></i></a>
+            <a class="toggle-menu" href="#member">band</a>
+            <a class="toggle-menu" href="#tour">tour</a>
+            <a class="toggle-menu" href="#contact">contact</a>
+            <div id="subnav">
+                <a>more<i class="ti-arrow-circle-down"></i></a>
+                <ul>
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Extras</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="toggle-menu">
+            <a id="search"><i class="ti-search"></i></a>
+        </div>
+        <div id="toggle-nav" class="hide">
+            <a class="toggle-menu width-full" onclick="showToggleNav()" href="#member">band</a>
+            <a class="toggle-menu width-full" onclick="showToggleNav()" href="#tour">tour</a>
+            <a class="toggle-menu width-full" onclick="showToggleNav()" href="#contact">contact</a>
+            <a class="toggle-menu width-full" onclick="showToggleNav()" >merch</a>
+        </div>
+    </div>
+    <!-- Slide show -->
+    <div id="slide-show" class="center">
+        <div id="slide0" class="slide-container width-full">
+            <div class="width-full">
+                <h3 class="slide-content width-full">Chicago</h3>
+                <b class="slide-content width-full">Thank you, Chicago - A night we won't forget.</b>
+            </div>
+        </div>
+        <div id="slide1" class="slide-container width-full">
+            <div class="width-full">
+                <h3 class="slide-content width-full">Los Angeles</h3>
+                <b class="slide-content width-full">We had the best time playing at Venice Beach!</b>
+            </div>
+        </div>
+        <div id="slide2" class="slide-container width-full">
+            <div class="width-full">
+                <h3 class="slide-content width-full">New York</h3>
+                <b class="slide-content width-full">The atmosphere in New York is lorem ipsum.</b>
+            </div>
+        </div>
+    </div>
+    <!-- Member -->
+    <div id="member" class="center">
+        <div>
+            <h2 class="content-heading">the band</h2>
+            <i class="content-slogan opacity">We love music</i>
+        </div>
+        <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat.</p>
+        <div id="mem-inf" class="width-full">
+            <div class="s-full">
+                <p>Name</p>
+                <img src="./assets/image/bandmember.jpg" alt="">
+            </div>
+            <div class="s-full">
+                <p>Name</p>
+                <img src="./assets/image/bandmember.jpg" alt="">
+            </div>
+            <div class="s-full">
+                <p>Name</p>
+                <img src="./assets/image/bandmember.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Tour -->
+    <div id="tour" class="center">
+        <div>
+            <h2 class="content-heading">tour dates</h2>
+            <i class="content-slogan opacity">Remember to book your tickets!</i>
+            <br>
+            <ul>
+                <li class="width-full">September <span>Sold out</span> </li>
+                <li class="width-full">October <span>Sold out</span> </li>
+                <li class="width-full">November <span id="ticket-num">3</span></li>          
+            </ul>
+            <div id="tickets">
+                <div class="s-full">
+                    <img class="width-full" src="./assets/image/newyork.jpg" alt="">
+                    <div class="width-full">
+                        <p><b>New York</b></p>
+                        <p class="opacity">Fri 27 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a class="buy-modal s-full center">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="s-full">
+                    <img class="width-full" src="./assets/image/paris.jpg" alt="">
+                    <div class="width-full">
+                        <p><b>Paris</b></p>
+                        <p class="opacity">Sat 28 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a class="buy-modal s-full center">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="s-full">
+                    <img class="width-full" src="./assets/image/sanfran.jpg" alt="">
+                    <div class="width-full">
+                        <p><b>San Franciso</b></p>
+                        <p class="opacity">Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a class="buy-modal s-full center">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact" class="center">
+        <div>
+            <h2 class="content-heading">Contact</h2>
+            <i class="content-slogan opacity">Fan?Drop a note!</i>
+        </div>
+        <div>
+            <div>
+                <p><i class="ti-location-pin"></i>Chicago, US</p>
+                <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                <p><i class="ti-email"></i>Email: mail@mail.com</p>
+            </div>
+            <form action="" class="s-full">
+                <div id="input-inf">
+                    <div>
+                        <div><input class="width-full" type="text" title="Name" required placeholder="Name"></div>
+                        <div><input class="width-full" type="email" title="Email" required placeholder="Email"></div>
+                    </div>
+                    <input class="width-full" type="text" title="Message" required placeholder="Message">
+                    <input id="input-btn" class="s-full" type="submit" value="SEND">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Map -->
+    <div id="map">
+        <img src="./assets/image/map.jpg" alt="" style="width:100%">
+    </div>
+    <!-- Footer -->
+    <div id="footer" class="opacity center">
+        <i class="foot-icon ti-facebook"></i>
+        <i class="foot-icon ti-instagram"></i>
+        <i class="foot-icon ti-themify-logo"></i>
+        <i class="foot-icon ti-pinterest"></i>
+        <i class="foot-icon ti-twitter-alt"></i>
+        <i class="foot-icon ti-linkedin"></i>
+        <p>Powered by <a>Quang281</a></p>
+    </div>
+    <!-- Ticket modal-->
+    <div id="ticket-modal">
+        <div id="modal-container">
+            <a class="buy-modal-close"><i class="ti-close"></i></a>
+            <div id="modal-header" class="center">
+                <h2>
+                    <i class="ti-bag"></i>
+                    Tickets
+                </h2>
+            </div>
+            <div id="modal-content">
+                <label for=""><i class="ti-shopping-cart"></i>Tickets, $15 per person</label>
+                <input class="width-full" type="text" placeholder="How many?">
+                <label for=""><i class="ti-user"></i>Send To</label>
+                <input class="width-full" type="text" placeholder="Enter email">
+                <a class="center width-full">PAY<i class="ti-check"></i></a>
+                <div>
+                    Need <a id="modal-help">help?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btns = document.querySelectorAll('.buy-modal')
+        const modal = document.querySelector('#ticket-modal')
+        const hideModal = document.querySelector('.buy-modal-close')
+        const containerModal = document.querySelector('#modal-container')
+        var slideIndex = 0;
+        slideAuto();
+
+        function slideAuto() {
+            var slides = document.getElementsByClassName("slide-container");
+            for (var i=0; i<slides.length; i++) {
+                if (i == slideIndex) slides[i].style.display = "block";
+                else slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex == slides.length) slideIndex = 0;
+            setTimeout(slideAuto, 4000);
+        }
+
+
+        function showBuyModal() {
+            modal.classList.add('buy-modal-open')
+        }
+
+        function hideBuyModal() {
+            modal.classList.remove('buy-modal-open')
+        }
+
+        for (const btn of btns) {
+            btn.addEventListener('click', showBuyModal)
+        }
+
+        hideModal.addEventListener('click', hideBuyModal)
+
+        modal.addEventListener('click', hideBuyModal)
+
+        containerModal.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+        
+        var toggle = document.getElementById("toggle-nav");
+        function showToggleNav() {
+            if (toggle.className.indexOf("show-block") == -1) {
+                toggle.className += " show-block";
+            }
+            else toggle.className = toggle.className.replace(" show-block", "");
+            
+        }
+        
+        var home = document.getElementById("home");
+        window.onclick = function(event) {
+            if (event.target == home && toggle.className.indexOf("show-block") != -1) {
+                toggle.className = toggle.className.replace(" show-block", "");
+            } 
+        }
+        
+    </script>
+</body>
+</html>
